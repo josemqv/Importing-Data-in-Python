@@ -2,7 +2,7 @@
 file = open("moby_dick.txt", mode="r")
 
 # Print it
-print(file)
+print(file.read())
 
 # Check whether file is closed
 print(file.closed)
