@@ -1,3 +1,4 @@
+import pandas as pd
 # Load a sheet into a DataFrame by name: df1
 df1 = xls.parse('2004')
 
