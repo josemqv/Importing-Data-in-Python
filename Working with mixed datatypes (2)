@@ -1,0 +1,11 @@
+import pandas as pd
+import matplotlib.pyplot as plt
+
+# Assign the filename: file
+file = 'titanic.csv'
+
+# Import file using np.recfromcsv: d
+d=np.recfromcsv("titanic.csv")
+
+# Print out first three entries of d
+print(d[:3])
