@@ -4,5 +4,6 @@ import scipy.io
 # Load MATLAB file: mat
 file='albeck_gene_expression.mat'
 
+mat=scipy.io.loadmat(file)
 # Print the datatype type of mat
-print(type(file))
+print(type(mat)) 
